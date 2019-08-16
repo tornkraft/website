@@ -43,22 +43,13 @@ function redirect(actuallang){
   var url ='/';
   switch(actuallang){
     case 'en':
-      url ='http://link-en';
+      url ='https://tornkraft.tk/en';
       break;
     case 'fr':
-      url ='http://link-fr';
-      break;
-    case 'ru':
-      url ='http://link-ru';
-      break;
-    case 'es':
-      url ='http://link-es';
-      break;
-    case 'de':
-      url ='http://link-de';
+      url ='https://tornkraft.tk';
       break;
     default:
-      url='http://link-default';
+      url='https://tornkraft.tk';
       break;
   }
   window.location.replace(url);
